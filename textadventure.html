@@ -271,10 +271,7 @@
                         state = "end";
                     }
                 }
-            }
-
-            function bclick(button){
-                if(state == "end"){
+                else if(state == "end"){
                     if(button == 1){
                         intro();
                         state = "intro";
@@ -284,10 +281,7 @@
                         state = "end";
                     }
                 }
-            }
-            
-            function bclick(button){
-                if(state == "showCarOrTrackCar"){
+                else if(state == "showCarOrTrackCar"){
                     if(button == 1){
                         choseTypeOfCarShow();
                         state = "choseTypeOfCarShow";
@@ -297,10 +291,7 @@
                         state = "choseTypeOfCarTrack";
                     }
                 }
-            }
-
-            function bclick(button){
-                if(state == "choseTypeOfCarShow"){
+                else if(state == "choseTypeOfCarShow"){
                     if(button == 1){
                         jdmShow();
                         state = "jdmShow";
@@ -310,23 +301,17 @@
                         state = "muscleShow";
                     }
                 }
-            }
-
-            function bclick(button){
-                if(state == "jdmShow"){
+                else if(state == "jdmShow"){
                     if(button == 1){
                         jdmShowWideBody();
                         state = "jdmShowWideBody";
                     }
                     else if(button == 2){
                         muscleShowNoWideBody();
-                        state = "jdmShowNoWideBody";
+                        state = "muscleShowNoWideBody";
                     }
                 }
-            }
-
-            function bclick(button){
-                if(state == "jdmShowWideBody"){
+                else if(state == "jdmShowWideBody"){
                     if(button == 1){
                         intro();
                         state = "intro";
@@ -336,10 +321,7 @@
                         state = "end";
                     }
                 }
-            }
-
-            function bclick(button){
-                if(state == "jdmShowNoWideBody"){
+                else if(state == "jdmShowNoWideBody"){
                     if(button == 1){
                         intro();
                         state = "intro";
@@ -349,10 +331,7 @@
                         state = "end";
                     }
                 }
-            }
-
-            function bclick(button){
-                if(state == "muscleShow"){
+                else if(state == "muscleShow"){
                     if(button == 1){
                         muscleShowWideBody();
                         state = "muscleShowWideBody";
@@ -362,10 +341,7 @@
                         state = "muscleShowNoWideBody";
                     }
                 }
-            }
-
-            function bclick(button){
-                if(state == "muscleShowWideBody"){
+                else if(state == "muscleShowWideBody"){
                     if(button == 1){
                         intro();
                         state = "intro";
@@ -375,10 +351,7 @@
                         state = "end";
                     }
                 }
-            }
-
-            function bclick(button){
-                if(state == "muscleShowNowideBody"){
+                else if(state == "muscleShowNowideBody"){
                     if(button == 1){
                         intro();
                         state = "intro";
@@ -388,10 +361,7 @@
                         state = "intro";
                     }
                 }
-            }
-
-            function bclick(button){
-                if(state == "choseTypeOfCarTrack"){
+                else if(state == "choseTypeOfCarTrack"){
                     if(button == 1){
                         jdmTrack();
                         state = "jdmTrack";
@@ -401,22 +371,17 @@
                         state = "muscleTrack";
                     }
                 }
-            }
-
-            function bclick(button){
-                if(state == "jdmTrack"){
+                else if(state == "jdmTrack"){
                     if(button == 1){
                         jdmTrackWideBody();
-                        state = "jdmShowWideBody";
+                        state = "jdmTrackWideBody";
                     }
                     else if(button == 2){
                         jdmTrackNoWideBody();
                         state = "jdmTrackNoWidebody";
                     }
                 }
-
-            }function bclick(button){
-                if(state == "jdmTrackWideBody"){
+                else if(state == "jdmTrackWideBody"){
                     if(button == 1){
                         intro();
                         state = "intro";
@@ -426,10 +391,7 @@
                         state = "end";
                     }
                 }
-            }
-
-            }function bclick(button){
-                if(state == "jdmTrackNoWideBody"){
+                else if(state == "jdmTrackNoWideBody"){
                     if(button == 1){
                         intro();
                         state = "intro";
@@ -439,10 +401,7 @@
                         state = "end";
                     }
                 }
-            }
-
-            }function bclick(button){
-                if(state == "muscleTrack"){
+                else if(state == "muscleTrack"){
                     if(button == 1){
                         muscleTrackWideBody();
                         state = "muscleTrackWideBody";
@@ -452,10 +411,7 @@
                         state = "muscleTrackNoWideBody";
                     }
                 }
-            }
-
-            }function bclick(button){
-                if(state == "muscleTrackWideBody"){
+                else if(state == "muscleTrackWideBody"){
                     if(button == 1){
                         intro();
                         state = "intro";
@@ -465,10 +421,7 @@
                         state = "end";
                     }
                 }
-            }
-
-            }function bclick(button){
-                if(state == "muscleTrackNoWideBody"){
+                else if(state == "muscleTrackNoWideBody"){
                     if(button == 1){
                         intro();
                         state = "intro";
